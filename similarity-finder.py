@@ -16,7 +16,7 @@ def main(file_names):
             ratio = s.ratio()
             sims.append((file_names[x], file_names[y], ratio))
 
-    sorted_sims = sorted(sims, key=lambda (a, b, s): -s)
+    sorted_sims = sorted(sims, key=lambda s: -s[2])
 
     for f1, f2, score in sorted_sims:
         print(f1 + ',' + f2 + ',' + str(score))
