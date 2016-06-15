@@ -1,5 +1,5 @@
 # similarity-finder
-Python tool that lists combinations of similar files within a directory
+Python tool that lists combinations of similar files (or cases of plagiarism) within a directory
 
 # Usage
 
